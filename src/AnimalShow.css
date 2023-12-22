@@ -1,0 +1,19 @@
+.animal-container {
+  width: 200px;
+  position: relative;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  border-radius: 25px;
+  margin: 5px;
+  box-shadow: 0px 3px 5px 1px rgba(0, 0, 255, .2);
+}
+.animal-img {
+  display: block;
+  width: 100%;
+}
+.heart {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
